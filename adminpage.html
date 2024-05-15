@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/adminstyle.css">
+</head>
+<body>
+
+    <header class="header1">
+        <h1 class="title">Сторінка адміністратора</h1>
+    </header>
+
+
+
+        <form class="forms" id = "forms">
+            <input id ="InputCity" class="Input" type="text" placeholder="Введіть назву міста">
+            <button class = "btnsearch">пошук</button>
+        </form>
+    
+    <div class="choosecardmenu">
+        <div class="choosecard">Оберіть картку, яку хочете відредагувати</div>
+        <ul class="cardmenu">
+          <li>Картка 1</li>
+          <li>Картка 2</li>
+          <li>Картка 3</li>
+          <li>Картка 4</li>
+          <li>Картка 5</li>
+          <li>Картка 6</li>
+          <li>Картка 7</li>
+          <li>Картка 8</li>
+          <li>Картка 9</li>
+        </ul>
+      </div>
+      <form class="tempr">
+        <input id="temp" class="temp" type="text" placeholder="Температура" disabled>
+        <button class="btntemp">Змінити</button>
+      </form>
+      
+      <form class="descr">
+        <input id="decript" class="descript" type="text" placeholder="Опис погоди" disabled>
+        <button class="btndescr">Змінити</button>
+        <button class="btnsave" disabled>Зберегти</button>
+        <button class="btndel">Повернутися на головну сторінку</button>
+      </form>
+      
+
+      <div class ="card-weatheradm">
+        <div class="cityadm">London</div>
+    
+        <div class="weatheradm">
+            <div class="valueadm">24°С</div>
+            <img class="imageadm" src="./image/sunny.png" alt="Weather">
+            
+        </div>
+        
+       <div class="decriptionadm">Сонячно</div>
+        <div class="dateadm">Час: 2023-05-13 18:00:00</div>
+        
+    </div>
+
+      <script src="./admin.js"></script>
+
+</body>
+</html>

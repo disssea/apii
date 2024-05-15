@@ -1,0 +1,422 @@
+.header1 {
+    position: absolute;
+width: 100%;
+height: 150px;
+left: 0px;
+top: 0px;
+
+background: #292323;
+box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.4);
+}
+.title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+height: 150px;
+left: 0px;
+top: -40px;
+
+font-family: 'Abyssinica SIL';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.choosecardmenu {
+    box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 45px;
+left: 120px;
+top: 200px;
+
+
+background: #E5E5E5;
+border: 3px solid #000000;
+box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+border-radius: 12px 12px 0px 0px;
+
+}
+.choosecard {
+    position: absolute;
+width: 150px;
+height: 45px;
+
+
+font-family: 'Abyssinica SIL';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+}
+  
+  .cardmenu {
+    position: absolute ;
+    width: 146px;
+    
+    top: 100%;
+    left: -2.5px;
+    z-index: 1;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #E5E5E5;
+    border: 3px solid #000000;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .cardmenu li {
+    padding: 5px;
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    text-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .cardmenu li:hover {
+    background: #FFFFFF;
+  }
+
+ .temp{
+    box-sizing: border-box;
+
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 300px;
+    top: 250px;
+
+    background: #E5E5E5;
+    border: 3px solid #000000;
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+
+  }
+
+  .btntemp{
+    position: absolute;
+    text-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    width: 140px;
+    height: 54px;
+    left: 300px;
+    top: 320px;
+    cursor: pointer;
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 120;
+    font-size: 20px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    }
+    .btntemp:hover{
+        color: #000000;
+        background: rgba(255, 255, 255, 0.69);
+   }
+
+ 
+
+.descript{
+    box-sizing: border-box;
+
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 300px;
+    top: 400px;
+
+    background: #E5E5E5;
+    border: 3px solid #000000;
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+
+  }
+  .btndescr{
+    position: absolute;
+    text-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    width: 140px;
+    height: 54px;
+    left: 300px;
+    top: 480px;
+    cursor: pointer;
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 120;
+    font-size: 20px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    }
+
+  
+    .btndescr:hover{
+        color: #000000;
+        background: rgba(255, 255, 255, 0.69);
+   }
+
+   .btnsave{
+    position: absolute;
+    text-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    width: 140px;
+    height: 54px;
+    left: 460px;
+    top: 480px;
+    cursor: pointer;
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 120;
+    font-size: 20px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+
+   }
+   .btnsave:hover{
+    color: #000000;
+    background: rgba(255, 255, 255, 0.69);
+}
+
+.Input {
+    position: absolute;
+    width: 300px;
+    height: 35px;
+    left: 300px;
+    top: 200px;
+
+    background:#FFFFFF;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    color: rgba(0, 0, 0, 0.97);
+
+}
+.btnsearch {
+ 
+    
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    position: absolute;
+    align-items: right;
+    left: 537px;
+    top: 200px;
+    width: 70px;
+    height: 40px;
+    background:#E5E5E5;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.btnsearch:hover{
+    background: rgba(0, 0, 0, 0.69);
+}
+
+
+.card-weatheradm {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 700px;
+    top: 170px;
+
+    background:#000000;
+    opacity: 1;
+    box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
+.cityadm {
+    position: absolute;
+    width: 350px;
+    height: 35px;
+    top: 15px;
+    
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+}
+.weatheradm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.valueadm {
+    position: absolute;
+    width: 150px;
+    height: 65px;
+    left: 25px;
+    top: 75px;
+    
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.imageadm {
+    position: absolute;
+        opacity: 1;
+        width: 240px;
+        height: 240px;
+        left: 105px;
+        top: 60px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+}
+.decriptionadm {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 46px;
+    top: 280px;
+
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    color: #ffffff;
+}
+.dateadm {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 61.78px;
+    top: 345px;
+
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    color: #ffffff;
+}
+
+.btndel{
+    position: absolute;
+    text-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    width: 300px;
+    height: 54px;
+    left: 300px;
+    top: 570px;
+    cursor: pointer;
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 120;
+    font-size: 18px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+
+
+}
+.btndel:hover{
+    color: #000000;
+    background: rgba(255, 255, 255, 0.69);
+}
+

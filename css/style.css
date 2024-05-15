@@ -1,0 +1,1123 @@
+@import "./reset.css";
+
+.sidepnl {
+   
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+}
+
+.title {
+    position: relative;
+    width: 337px;
+    height: 112px;
+    left: 0;
+    top: 30px;
+    
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    
+    color: #1E1E1E;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.day{
+    
+    position: absolute;
+    width: 342px;
+    height: 23px;
+    top:110px;
+
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    color: #1E1E1E;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+.header {
+    position: absolute;
+    width: 500px;
+    height: 37px;
+    left: 650px;
+    top: 44px;
+}
+.btnadmin {
+
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    color: #1E1E1E;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 220px;
+    height: 50px;
+    top: 600px;
+
+    background: rgba(18, 186, 148, 0.69);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.btnadmin:hover{
+     background: rgba(4, 86, 67, 0.69);
+}
+.form {
+    position: absolute;
+    width: 800px;
+    height: 35px;
+    left: -80px;
+    background: linear-gradient(269.63deg, #11998E 14.41%, #38EF7D 100%), rgba(0, 194, 194, 0.75);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.input {
+    position: absolute;
+    width: 650px;
+    height: 35px;
+
+
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.97);
+
+}
+.btn {
+ 
+    
+    font-family: 'Abyssinica SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    position: absolute;
+    align-items: right;
+    left: 650px;
+    width: 150px;
+    height: 35px;
+    background: linear-gradient(94.03deg, rgba(51, 228, 126, 0.1222) 18.23%, rgba(0, 0, 0, 0.2444) 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.btn:hover{
+    background: rgba(4, 86, 67, 0.69);
+}
+
+
+/*card-weather*/
+.card-weather {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 25px;
+    top: 170px;
+
+    background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+    opacity: 1;
+    box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    }
+    
+    .city {
+        position: absolute;
+        width: 350px;
+        height: 35px;
+        top: 15px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #1E1E1E;
+    }
+    
+    .weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    }
+    
+   
+    
+    .value {
+        position: absolute;
+        width: 150px;
+        height: 65px;
+        left: 25px;
+        top: 75px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+    }
+    .image {
+        position: absolute;
+        opacity: 1;
+        width: 240px;
+        height: 240px;
+        left: 105px;
+        top: 60px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    
+    .decription {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 46px;
+        top: 280px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+        
+    }
+    
+    .date {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 61.78px;
+        top: 345px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+
+    }
+    .card-weather1 {
+        position: absolute;
+        width: 210px;
+        height: 275px;
+        left: 500px;
+        top: 115px;
+
+        background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+        opacity: 1;
+        box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 16px;
+    }
+    .city1 {
+        position: absolute;
+        width: 210px;
+        height: 24px;
+   
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #1E1E1E;
+    }
+    .weather1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .value1 {
+        position: absolute;
+        width: 100px;
+        height: 55px;
+        left: 15px;
+        top: 30px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 60px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .image1 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .decription1 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 35px;
+        top: 180px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+    .date1 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 30px;
+        top: 230px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+
+
+    .card-weather2 {
+        position: absolute;
+        width: 210px;
+        height: 275px;
+        left: 730px;
+        top: 115px;
+
+        background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+        opacity: 1;
+        box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 16px;
+    }
+    .city2 {
+        position: absolute;
+        width: 210px;
+        height: 24px;
+   
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #1E1E1E;
+    }
+    .image2 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+  
+    .weather2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .value2 {
+        position: absolute;
+        width: 100px;
+        height: 55px;
+        left: 15px;
+        top: 30px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 60px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .image2 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .decription2 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 35px;
+        top: 180px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+    .date2 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 30px;
+        top: 230px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+
+
+    .card-weather3 {
+        position: absolute;
+        width: 210px;
+        height: 275px;
+        left: 960px;
+        top: 115px;
+
+        background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+        opacity: 1;
+        box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 16px;
+    }
+    .city3 {
+        position: absolute;
+        width: 210px;
+        height: 24px;
+   
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #1E1E1E;
+    }
+    .image3 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+  
+    .weather3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .value3 {
+        position: absolute;
+        width: 100px;
+        height: 55px;
+        left: 15px;
+        top: 30px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 60px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .image3 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .decription3 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 35px;
+        top: 180px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+    .date3 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 30px;
+        top: 230px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+
+    .card-weather4 {
+        position: absolute;
+        width: 210px;
+        height: 275px;
+        left: 1190px;
+        top: 115px;
+
+        background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+        opacity: 1;
+        box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 16px;
+    }
+    .city4 {
+        position: absolute;
+        width: 210px;
+        height: 24px;
+   
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #1E1E1E;
+    }
+    .image4 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .weather4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .value4 {
+        position: absolute;
+        width: 100px;
+        height: 55px;
+        left: 15px;
+        top: 30px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 60px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .image4 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .decription4 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 35px;
+        top: 180px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+    .date4 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 30px;
+        top: 230px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+
+
+
+
+    .card-weather5 {
+        position: absolute;
+        width: 210px;
+        height: 275px;
+        left: 500px;
+        top: 400px;
+
+        background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+        opacity: 1;
+        box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 16px;
+    }
+    .city5 {
+        position: absolute;
+        width: 210px;
+        height: 24px;
+   
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #1E1E1E;
+    }
+    .image5 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .weather5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .value5 {
+        position: absolute;
+        width: 100px;
+        height: 55px;
+        left: 15px;
+        top: 30px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 60px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .image5 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .decription5 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 35px;
+        top: 180px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+    .date5 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 30px;
+        top: 230px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+
+
+    .card-weather6 {
+        position: absolute;
+        width: 210px;
+        height: 275px;
+        left: 730px;
+        top: 400px;
+
+        background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+        opacity: 1;
+        box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 16px;
+    }
+    .city6 {
+        position: absolute;
+        width: 210px;
+        height: 24px;
+   
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #1E1E1E;
+    }
+    .image6 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .weather6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .value6 {
+        position: absolute;
+        width: 100px;
+        height: 55px;
+        left: 15px;
+        top: 30px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 60px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .image6 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .decription6 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 35px;
+        top: 180px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+    .date6 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 30px;
+        top: 230px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+
+
+    .card-weather7 {
+        position: absolute;
+        width: 210px;
+        height: 275px;
+        left: 960px;
+        top: 400px;
+
+        background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+        opacity: 1;
+        box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 16px;
+    }
+    .city7 {
+        position: absolute;
+        width: 210px;
+        height: 24px;
+   
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #1E1E1E;
+    }
+    .image7 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .weather7 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .value7 {
+        position: absolute;
+        width: 100px;
+        height: 55px;
+        left: 15px;
+        top: 30px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 60px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .image7 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .decription7 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 35px;
+        top: 180px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+    .date7 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 30px;
+        top: 230px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+
+    .card-weather8 {
+        position: absolute;
+        width: 210px;
+        height: 275px;
+        left: 1190px;
+        top: 400px;
+
+        background: linear-gradient(12.04deg, #11998E 0.44%, #38EF7D 99.15%), rgba(0, 194, 194, 0.75);
+        opacity: 1;
+        box-shadow: 10px -5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 16px;
+    }
+    .city8 {
+        position: absolute;
+        width: 210px;
+        height: 24px;
+   
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #1E1E1E;
+    }
+    .image8 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .weather8 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .value8 {
+        position: absolute;
+        width: 100px;
+        height: 55px;
+        left: 15px;
+        top: 30px;
+        
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 60px;
+        text-align: left;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .image8 {
+        position: absolute;
+        opacity: 1;
+        width: 150px;
+        height: 150px;
+        left: 70px;
+        top: 40px;
+        filter: drop-shadow(12px 10px 7px rgba(0, 0, 0, 0.25));
+    }
+    .decription8 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 35px;
+        top: 180px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
+    .date8 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 30px;
+        top: 230px;
+
+        font-family: 'Abyssinica SIL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        color: #1E1E1E;
+    }
